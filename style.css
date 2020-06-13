@@ -251,36 +251,24 @@ margin-top: -520px;
 #dark-bg-colour {
 	/*background-color: #000000;*/
 	padding: 10px;
-	max-width: 50em;
-	
+	max-width: 50em;	
 }
 
 .para-img-2 {
   background-image: url("./images/starlink-globe.jpg");
-
-
 }
 
 .para-img-3 {
   background-image: url("./images/bg_debris.jpg");
-
-
 }
 
 .para-img-4 {
   background-image: url("./images/mj-duke-multi-col.png");
-
-
 }
 
 .para-img-5 {
 	background-image: url("./images/mj-duke-rap.jpg");
-  
-  
-  }
-
-
-
+}
 
 #mc_embed_signup form {
     background-color:  black;
@@ -552,3 +540,29 @@ img{
 }
 
 
+video {
+	width: 100%;
+	min-height: 100vh;
+	object-fit: cover;
+}
+
+.my-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #f9f9f9;
+	/*margin-top: 5%;*/
+}
+
+button {
+	color: black;
+	padding: 14px;
+	background-color: #fa2197;
+	border-radius: 25px;
+}
