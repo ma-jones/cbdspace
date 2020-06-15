@@ -573,3 +573,7 @@ button {
 	background-color: #fa2197;
 	border-radius: 25px;
 }
+
+.embed-responsive-4by3 {
+    padding-bottom: 7%;
+}
