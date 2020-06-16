@@ -577,3 +577,7 @@ button {
 .embed-responsive-4by3 {
     padding-bottom: 7%;
 }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #6a5eeb;
+}
