@@ -596,3 +596,7 @@ ul {
 	background-color: #6a5eeb;
     border-color: #f9f9f9;
 }
+
+#mc_embed_signup .button {
+    background-color: purple;
+}
