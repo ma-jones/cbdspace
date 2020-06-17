@@ -101,7 +101,7 @@ background-color:#bf1f24;
 	background-color: #000000;
 	}
 
-	.row {
+.row {
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -110,12 +110,14 @@ background-color:#bf1f24;
 
 a:focus, a:hover {
     color: #D22F2B;
-    text-decoration: none;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 a {
     color: #f9f9f9;
-    text-decoration: none;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 /*---------------------------*/
