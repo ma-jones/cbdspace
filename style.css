@@ -584,3 +584,7 @@ button {
 .navbar-brand > img {
     margin-top: -20px;
 }
+
+ul {
+    color: #6a5eeb;
+}
