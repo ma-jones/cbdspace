@@ -413,8 +413,6 @@ img{
 	text-align: center;
 }
 
-
-
 }
 
 
@@ -587,4 +585,9 @@ button {
 
 ul {
     color: #f9f9f9;
+}
+
+.btn-primary {
+    background-color: #6a5eeb;
+    border-color: #f9f9f9;
 }
