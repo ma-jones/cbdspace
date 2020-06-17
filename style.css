@@ -591,3 +591,8 @@ ul {
     background-color: #6a5eeb;
     border-color: #f9f9f9;
 }
+
+.btn-primary a:hover {
+	background-color: #6a5eeb;
+    border-color: #f9f9f9;
+}
