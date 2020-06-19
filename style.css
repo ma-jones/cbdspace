@@ -633,3 +633,14 @@ Destacados
 	background: rgba(200, 200, 200, 0.1);
 	transition: 0.5s;
 }
+
+.blink {
+	animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+	50% {
+	  opacity: 0;
+	}
+  }
+  
