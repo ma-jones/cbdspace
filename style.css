@@ -505,7 +505,7 @@ h2
 .blink {
 	animation: blinker 2s step-start infinite;
 	height: 50%;
-	width: 50;
+	width: 50%;
   }
 
 .up {
@@ -641,8 +641,6 @@ Destacados
 
 .blink {
 	animation: blinker 2s step-start infinite;
-	height: 50%;
-	width: 50;
   }
   
   @keyframes blinker {
