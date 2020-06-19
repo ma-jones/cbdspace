@@ -502,6 +502,11 @@ h2
   margin-top: -265px;
 }
 
+.blink {
+	animation: blinker 2s step-start infinite;
+	height: 50%;
+	width: 50;
+  }
 
 .up {
 	margin-top: -275px;
@@ -635,7 +640,9 @@ Destacados
 }*/
 
 .blink {
-	animation: blinker 1s step-start infinite;
+	animation: blinker 2s step-start infinite;
+	height: 50%;
+	width: 50;
   }
   
   @keyframes blinker {
