@@ -616,7 +616,7 @@ Destacados
 -------------------------------------------------- 
 */
 
-.destacados{
+/*.destacados{
     padding: 20px 0;
 	text-align: center;
 }
@@ -632,7 +632,7 @@ Destacados
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
 	background: rgba(200, 200, 200, 0.1);
 	transition: 0.5s;
-}
+}*/
 
 .blink {
 	animation: blinker 1s step-start infinite;
