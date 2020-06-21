@@ -438,7 +438,11 @@ img{
 	/*width: 100%;*/
 	text-align: center;
 }
-	
+
+p {
+	font-size: 0.8em;
+}
+
 }
 
 /* Small Devices, Tablets */
@@ -485,6 +489,10 @@ h2
 
 {
 	font-size: 1em;
+}
+
+p {
+	font-size: 0.7em;
 }
 
 
@@ -535,6 +543,11 @@ img{
 	text-align: center;
 	
 }
+
+p {
+	font-size: 0.6em;
+}
+
 	
 }
 
@@ -614,6 +627,10 @@ ul {
 
 .hr {
 	color: #1c1d21;
+}
+
+p {
+	font-size: 0.5em;
 }
 
 /*
