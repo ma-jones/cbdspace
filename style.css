@@ -641,8 +641,7 @@ Destacados
 
 .blink {
 	animation: blinker 4s step-start infinite;
-	/*margin: -30px -60px -10px 0px;*/
-	margin: 0px 225px 0px 300px;
+	margin: 0px 225px 0px 225px;
   }
   
   @keyframes blinker {
