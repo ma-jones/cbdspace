@@ -5,6 +5,8 @@ body {
   /*font-family: 'Staatliches', cursive;*/
   /*font-family: 'Space Mono', monospace;*/
   font-family: 'Orbitron', sans-serif;
+
+
 }
 
 /*-----------------------*/
@@ -137,39 +139,27 @@ ul {
 
 p {
 	color: #FFFFFF;
-	/*font-family: 'Orbitron', sans-serif;*/
-	/*font-family: 'Staatliches', cursive;*/
 	letter-spacing: 1px;
 	font-size: 0.9em;
 	margin-bottom: .5em;
 	line-height: 30px;
-	/*text-transform: uppercase;
-	font-stretch: extra-expanded;
-	text-shadow: 0 0 10px #A4C9BA, 0 0 2px #A4C9BA, 0 0 3px #A4C9BA, 0 0 4px #A4C9BA, 0 0 7px #A4C9BA, 0 0 8px #A4C9BA, 0 0 100px #A4C9BA, 0 0 15px #A4C9BA;*/
 }
 
 
 .h1, h1 {
 	font-size: 3.2em;
-	/*font-family: 'Anonymous Pro', monospace;
-	font-family: 'Staatliches', cursive;*/
 	color: rgba(255, 255, 255, 1)
 }
 
-h3,
-a {
+h3, a {
 	font-size: 1em;
-	text-decoration: none;
-	/*font-family: 'Anton', sans-serif;*/
-
-	
+	text-decoration: none;	
 }
 
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #111;
-  /*font-family: 'Orbitron', sans-serif;*/
   text-align: left;
   background-color: #f9f9f9;
 }
@@ -177,7 +167,6 @@ h3 {
 h4 {
 	color: #FFFFFF;
 	font-size: 2.2em;
-	/*font-family: 'Orbitron', sans-serif;*/
 	text-transform: uppercase;
 }
 
@@ -268,16 +257,16 @@ margin-top: -520px;
 }
 
 .para-img-3 {
- /*background-image: url("./images/bg_debris.jpg");*/
+ background-image: url("");
  margin-top: -355px;
 }
 
 .para-img-4 {
-  background-image: url("./images/mj-duke-multi-col.png");
+  background-image: url("");
 }
 
 .para-img-5 {
-	/*background-image: url("./images/mj-duke-rap.jpg");*/
+	background-image: url("");
 	margin-top: -355px;
 }
 
@@ -450,7 +439,12 @@ img{
 li h2 {
     font-size: 0.8em;
     padding: 1px;
-}		
+}
+
+.up {
+	margin-top: -300px;
+}
+		
 	
 .caption {
 	margin-top: 10px;
@@ -462,16 +456,6 @@ li h2 {
 	width: 300px;
 	margin-bottom: 30px;
 }		
-
-P {
-	font-size: .8em;
-	letter-spacing: .8px;
-	/*font-family: 'Carme', sans-serif;*/
-	/*font-family: 'Staatliches', cursive;*/
-	line-height: 30px;
-	text-transform: uppercase;
-	font-stretch: none;
-}
 
 .h1, h1{
 	margin-top: 10px;
@@ -548,6 +532,9 @@ img{
     height: 130px;
 }
 
+}
+
+
 video {
 	width: 100%;
 	min-height: 100vh;
@@ -584,8 +571,7 @@ button {
 }
 
 .navbar-brand > img {
-    margin-top: 0px;
-    margin-left: 15px;
+    margin-top: 2px;
 }
 
 ul {
@@ -614,29 +600,6 @@ ul {
 	color: #1c1d21;
 }
 
-/*
-Destacados
--------------------------------------------------- 
-*/
-
-/*.destacados{
-    padding: 20px 0;
-	text-align: center;
-}
-.destacados > div > div{
-	padding: 10px;
-	border: 1px solid transparent;
-	border-radius: 4px;
-	transition: 0.2s;
-}
-.destacados > div:hover > div{
-	margin-top: -10px;
-	border: 1px solid rgb(200, 200, 200);
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
-	background: rgba(200, 200, 200, 0.1);
-	transition: 0.5s;
-}*/
-
 .blink {
 	animation: blinker 4s step-start infinite;
 	margin: 0px 225px 0px 225px;
@@ -649,10 +612,6 @@ Destacados
   }
 
   .vividworknav {
-	/*width: 33.333%;
-	height: auto;
-	float: left;
-	padding: 0;*/
 	position: relative;
 	background-color: black;
   }
@@ -691,4 +650,3 @@ Destacados
 	text-align: center;
 	opacity: 0;
   }
-
