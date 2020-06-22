@@ -262,7 +262,7 @@ margin-top: -520px;
 }
 
 .para-img-2 {
-  background-image: url("./images/starlink-globe.jpg");
+  background-image: url("");
 }
 
 .para-img-3 {
@@ -497,6 +497,7 @@ p {
 
 }
 
+
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
@@ -712,3 +713,6 @@ Destacados
 	opacity: 0;
   }
   
+  .space-man{
+	  margin: 20px 20px 20px 20px;
+  }
