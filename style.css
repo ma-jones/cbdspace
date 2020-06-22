@@ -3,9 +3,8 @@
 body {
   background-color: #111;
   /*font-family: 'Staatliches', cursive;*/
-  /*font-family: 'Space Mono', monospace;*/
-  font-family: 'Orbitron', sans-serif;
-
+  font-family: 'Space Mono', monospace;
+  /*font-family: 'Orbitron', sans-serif;*/
 
 }
 
@@ -196,11 +195,6 @@ margin-top: -520px;
 	width: 400px;
 	margin-bottom: 30px;
 }
-
-.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
-    margin-top: 20px;
-}
-
 
 .back-to-top {
     cursor: pointer;
