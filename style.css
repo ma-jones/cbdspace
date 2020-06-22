@@ -31,13 +31,13 @@ body {
     margin-top: -5px;
 }
 
-.svg-colour-2 {
+/*.svg-colour-2 {
     fill: 
     #222222;
     color: #1c1d21;
     color: #000;
     margin-bottom: -100px;
-}
+}*/
 
 .fa {
 	padding: 10px;
@@ -562,16 +562,13 @@ button {
 	border-radius: 25px;
 }
 
-.embed-responsive-4by3 {
-    padding-bottom: 7%;
-}
-
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     background-color: #6a5eeb;
 }
 
 .navbar-brand > img {
-    margin-top: 2px;
+    margin-top: 0px;
+    margin-left: 15px;
 }
 
 ul {
