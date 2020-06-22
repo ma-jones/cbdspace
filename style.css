@@ -441,10 +441,6 @@ img{
 	text-align: center;
 }
 
-.my-overlay {
-	width: 350px;
-}
-
 }
 
 /* Small Devices, Tablets */
@@ -486,10 +482,6 @@ h2
 
 {
 	font-size: 1em;
-}
-
-.my-overlay {
-	width: 300px;
 }
 
 }
@@ -538,10 +530,6 @@ img{
     margin: 0px 225px 0px 170px;
     height: 130px;
 }
-
-.my-overlay {
-	width: 250px;
-}
 	
 }
 
@@ -559,13 +547,6 @@ img{
     margin: 0px 225px 0px 170px;
     height: 130px;
 }
-
-.my-overlay {
-	width: 200px;
-}
-
-}
-
 
 video {
 	width: 100%;
@@ -603,7 +584,8 @@ button {
 }
 
 .navbar-brand > img {
-    margin-top: 2px;
+    margin-top: 0px;
+    margin-left: 15px;
 }
 
 ul {
@@ -709,7 +691,4 @@ Destacados
 	text-align: center;
 	opacity: 0;
   }
-  
-  .space-man{
-	  margin: 20px 20px 20px 20px;
-  }
+
