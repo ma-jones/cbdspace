@@ -441,8 +441,8 @@ img{
 	text-align: center;
 }
 
-p {
-	display: none;
+.my-overlay {
+	width: 350px;
 }
 
 }
@@ -454,12 +454,7 @@ p {
 li h2 {
     font-size: 0.8em;
     padding: 1px;
-}
-
-.up {
-	margin-top: -300px;
-}
-		
+}		
 	
 .caption {
 	margin-top: 10px;
@@ -493,8 +488,8 @@ h2
 	font-size: 1em;
 }
 
-p {
-	display: none;
+.my-overlay {
+	width: 300px;
 }
 
 }
@@ -544,8 +539,8 @@ img{
     height: 130px;
 }
 
-p {
-	display: none;
+.my-overlay {
+	width: 250px;
 }
 	
 }
@@ -565,8 +560,8 @@ p {
     height: 130px;
 }
 
-p{
-	display: none;
+.my-overlay {
+	width: 200px;
 }
 
 }
