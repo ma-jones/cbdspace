@@ -763,9 +763,10 @@ hr {
 }
 
 span {
-	background-color: #090909;
+	background-color: #0909091c;
 	color: #f9f9f9;
-	font-size: 1rem;
+	font-size: 2rem;
+	padding: 4px;
 }
 
   
