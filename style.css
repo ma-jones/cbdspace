@@ -769,5 +769,10 @@ span {
 	padding: 4px;
 }
 
+.fa, .fab, .fal, .far, .fas {
+
+    color: #0909096b;
+}
+
   
 
