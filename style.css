@@ -677,13 +677,15 @@ hr {
 
 .work .work-content {
     position: absolute;
-    left: 25px;
-    right: 25px;
+    left: 100px;
+    right: 100px;
     top: 50%;
     text-align: center;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    border-radius: 6px;
+    padding: 10px;
 }
 
 .work .work-content h3 {
