@@ -667,6 +667,7 @@ hr {
     transition: 0.2s opacity;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    border-radius: 25px;
 }
 
 .work:hover .overlay {
