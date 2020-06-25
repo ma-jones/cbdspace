@@ -656,18 +656,19 @@ hr {
 }
 
 .work .overlay {
-    background: #6a5eeb;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-    border-radius: 25px;
+  background: #000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+      transition-delay: 0s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  border-radius: 15px;
 }
 
 .work:hover .overlay {
@@ -774,7 +775,7 @@ hr {
 
 .fa, .fab, .fal, .far, .fas {
 
-    color: #2c2c2c;
+    color: #6a5eeb;
 }
 
   
