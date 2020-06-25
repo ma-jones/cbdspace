@@ -679,8 +679,8 @@ hr {
 
 .work .work-content {
     position: absolute;
-    left: 100px;
-    right: 100px;
+    left: 25px;
+    right: 25px;
     top: 50%;
     text-align: center;
     -webkit-transform: translateY(-50%);
