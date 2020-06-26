@@ -212,6 +212,7 @@ margin-top: -520px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -250px;
 }
 
 .para-img-1, .para-img-2, .para-img-3, .para-img-4, .para-img-5, .para-img-6 {
@@ -227,18 +228,9 @@ margin-top: -520px;
   letter-spacing: 5px;
   min-height: 600px;
   width: 100%;
+  margin-top: -355px;
 
 }
-.para-img-1 {
-  background-image: url("");
-  margin-top: -250px;
-
-}
-
-.para-img-4 {
-	margin-top: -355px;
-  
-  }
 
 #dark-bg-colour {
 	/*background-color: #000000;*/
