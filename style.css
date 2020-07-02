@@ -671,7 +671,8 @@ hr {
       transition-delay: 0s;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
-  border-radius: 15px;
+  border-radius: 5px;
+  margin: 180px;
 }
 
 .work:hover .overlay {
