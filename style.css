@@ -252,6 +252,7 @@ margin-top: -520px;
 
 .para-img-3 {
  background-image: url("");
+ margin-top: -355px;
 }
 
 .para-img-4 {
@@ -260,7 +261,7 @@ margin-top: -520px;
 
 .para-img-5 {
 	background-image: url("");
-	margin-top: -355px;
+	/*margin-top: -355px;*/
 }
 
 #mc_embed_signup form {
