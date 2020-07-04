@@ -782,5 +782,12 @@ hr {
     color: #6a5eeb;
 }
 
+
+/***********NEW SVG**************/
+
+svg {
+  vertical-align: bottom;
+  width: auto !important;
+}
   
 
