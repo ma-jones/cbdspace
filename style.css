@@ -133,7 +133,8 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+  list-style: none;
+  font-family: 'Space Mono', monospace;
 }
 
 p {
@@ -141,18 +142,21 @@ p {
 	letter-spacing: 1px;
 	font-size: 0.9em;
 	margin-bottom: .5em;
-	line-height: 30px;
+  line-height: 30px;
+  font-family: 'Space Mono', monospace;
 }
 
 
 .h1, h1 {
 	font-size: 3.2em;
-	color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1)
+  font-family: 'Space Mono', monospace;
 }
 
 h3, a {
 	font-size: 1em;
-	text-decoration: none;	
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
 }
 
 h3 {
@@ -161,12 +165,14 @@ h3 {
   color: #111;
   text-align: left;
   background-color: #f9f9f9;
+  font-family: 'Space Mono', monospace;
 }
 
 h4 {
 	color: #FFFFFF;
 	font-size: 2.2em;
-	text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
 }
 
 
@@ -252,7 +258,7 @@ margin-top: -520px;
 
 .para-img-3 {
  background-image: url("");
- margin-top: auto;
+ margin-top: -355px;
 }
 
 .para-img-4 {
@@ -261,7 +267,7 @@ margin-top: -520px;
 
 .para-img-5 {
 	background-image: url("");
-	margin-top: auto;
+	/*margin-top: -355px;*/
 }
 
 #mc_embed_signup form {
@@ -509,6 +515,8 @@ img{
 	
 }
 
+
+
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
 
@@ -523,6 +531,7 @@ img{
 }*/
 
 }
+
 
 video {
 	width: 100%;
@@ -600,6 +609,34 @@ hr {
 	50% {
 	  opacity: 0;
 	}
+  }
+
+  .vividworknav {
+	position: relative;
+	background-color: black;
+  }
+
+  .vividworknav:hover img {
+	opacity: 0.3;
+  }
+
+  .vividworknav:hover .work-text-content {
+	opacity: 1; 
+  }
+
+  .vividworknav img {
+	padding: 0;
+	width: 100%;
+	display: block;
+	opacity: 1;
+  }
+
+  .vividworknav img,
+  .work-text-content {
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
   }
 
   .work-text-content {
@@ -752,8 +789,74 @@ hr {
 }
 
 
-/***********NEW SVG**************/
 
+/*********NEW SVG************/
+
+body {
+  font-family: "Georgia", serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  font-smooth: always;
+  font-smooth: never;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
+}
+
+.intro-text {
+  font-size: 28px;
+  font-style: italic;
+  line-height: 14px;
+}
+
+.intro-text span {
+  font-size: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+}
+ul::after {
+   width: 100%;
+  display: inline-block;
+  content: ".";
+  visibility: hidden;
+}
+
+li {
+   text-align: left;
+   width: 220px;
+   display: inline-block;
+   margin-right: 0;
+   padding-bottom: 30px;
+}
+
+li .image {
+  display: table;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 108px;
+  max-height: 108px;
+  height: 108px;
+  margin-bottom: 25px;
+}
+li .image .row {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 100%;
+}
 svg {
   vertical-align: bottom;
   width: auto !important;
