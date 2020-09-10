@@ -267,15 +267,15 @@ margin-top: -520px;
 
 .para-img-5 {
 	background-image: url("");
-	/*margin-top: -355px;*/
+	margin-top: -355px;
 }
 
 #mc_embed_signup form {
-    background-color:  black;
+  background-color:  black;
 }
 
 #mc_embed_signup .mc-field-group label {
-    color:  white;
+  color: white;
 }
 
 /*==========  Mobile First Method  ==========*/
