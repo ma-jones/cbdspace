@@ -870,3 +870,7 @@ background: #111111;
 .z-i { 
   z-index: 999;
 }
+
+#mc_embed_signup form {
+  background-color: #979797;
+}
