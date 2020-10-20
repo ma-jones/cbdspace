@@ -267,15 +267,15 @@ margin-top: -520px;
 
 .para-img-5 {
 	background-image: url("");
-	/*margin-top: -355px;*/
+	margin-top: -355px;
 }
 
 #mc_embed_signup form {
-    background-color:  black;
+  background-color:  black;
 }
 
 #mc_embed_signup .mc-field-group label {
-    color:  white;
+  color: white;
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -561,11 +561,11 @@ button {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-    background-color: #6a5eeb;
+    background-color: #8b4bff;
 }
 
 .navbar-brand > img {
-    margin-top: 0px;
+    margin-top: -18px;
     margin-left: 15px;
 }
 
@@ -792,7 +792,7 @@ hr {
 
 /*********NEW SVG************/
 
-body {
+/*body {
   font-family: "Georgia", serif;
   font-size: 13px;
   font-weight: 400;
@@ -860,6 +860,25 @@ li .image .row {
 svg {
   vertical-align: bottom;
   width: auto !important;
-}
+}*/
   
 
+.bg-blk {
+background: #111111;
+}
+
+.z-i { 
+  z-index: 999;
+}
+
+#mc_embed_signup form {
+  background-color: #979797;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  color: #f9f9f9;
+}
+
+.navbar-toggle {
+  background-color: #8b4bff;
+}
