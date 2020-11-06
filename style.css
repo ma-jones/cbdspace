@@ -532,6 +532,9 @@ img{
 
 }
 
+.btn-group-lg > .btn, .btn-lg {
+  margin: 30px;
+}
 
 video {
 	width: 100%;
