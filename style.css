@@ -532,6 +532,10 @@ img{
 
 }
 
+.navbar-inverse {
+  padding: 15px;
+}
+
 .btn-group-lg > .btn, .btn-lg {
   margin: 30px;
 }
