@@ -582,8 +582,8 @@ button {
 }
 
 .navbar-brand > img {
-    margin-top: -18px;
-    margin-left: 15px;
+    margin-top: -30px;
+    /*margin-left: 15px;*/
 }
 
 ul {
