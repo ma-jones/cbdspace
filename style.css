@@ -78,7 +78,7 @@ body {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
 
-/*background-color:#bf1f24;*/
+background-color:#bf1f24;
 }
 
 .navbar-toggle {
@@ -539,9 +539,9 @@ img{
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  /*background-color: #8b4bff;
+  background-color: #8b4bff;
   border-radius: 5px;
-  margin: -10px;*/
+  /*margin: -10px;*/
 }
 
 .navbar-inverse {
@@ -582,7 +582,7 @@ button {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     /*background-color: #8b4bff;
     border-color: #f9f9f9;*/
-    border-bottom: 5px solid #8b4bff;
+    border-bottom: 2px solid #8b4bff;
 }
 
 .navbar-brand > img {
