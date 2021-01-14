@@ -81,8 +81,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-
-background-color:#bf1f24;
+border-bottom: 5px solid #8b4bff;
 }
 
 .navbar-toggle {
@@ -586,8 +585,7 @@ button {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     /*background-color: #8b4bff;*/
     border-color: #f9f9f9;
-    border-bottom: 5px solid #8b4bff;
-}
+    
 
 .navbar-brand > img {
     margin-top: -30px;
