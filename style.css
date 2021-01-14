@@ -1,5 +1,6 @@
 @import url('bootstrap/css/bootstrap.min.css');
 
+
 body {
   background-color: #111;
   /*font-family: 'Staatliches', cursive;*/
@@ -77,13 +78,13 @@ body {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
 
-background-color:#bf1f24;
+/*background-color:#bf1f24;*/
 }
 
 .navbar-toggle {
     position: relative;
     float: right;
-    border-bottom: 5px solid #8b4bff;
+    background-color: #6a5eeb;
     border-radius: 0px;
 }
 
@@ -538,9 +539,9 @@ img{
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  background-color: #8b4bff;
+  /*background-color: #8b4bff;
   border-radius: 5px;
-  /*margin: -10px;*/
+  margin: -10px;*/
 }
 
 .navbar-inverse {
@@ -579,8 +580,9 @@ button {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-    background-color: #8b4bff;
-    border-color: #f9f9f9;
+    /*background-color: #8b4bff;
+    border-color: #f9f9f9;*/
+    border-bottom: 5px solid #8b4bff;
 }
 
 .navbar-brand > img {
