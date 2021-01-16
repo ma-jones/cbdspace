@@ -9,10 +9,6 @@ body {
 
 }
 
-.doitnow {
-  margin-top: 150px;
-}
-
 /*-----------------------*/
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
@@ -617,7 +613,7 @@ ul {
 }
 
 .down {
-	margin-top: 50px;
+	margin-top: 75px;
 }
 
 hr {
