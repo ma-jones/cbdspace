@@ -57,6 +57,10 @@ body {
 	color: white;
   }
 
+  #mission{
+    margin-top: 150px;
+  }
+
   .fa-twitter {
 	background: #919292;
 	color: white;
