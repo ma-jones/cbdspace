@@ -9,6 +9,10 @@ body {
 
 }
 
+.doitnow {
+  margin-top: 150px;
+}
+
 /*-----------------------*/
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
@@ -55,10 +59,6 @@ body {
   .fa-facebook {
 	background: #919292;
 	color: white;
-  }
-
-  #mission{
-    margin-top: -10px;
   }
 
   .fa-twitter {
