@@ -254,7 +254,8 @@ margin-top: -520px;
 }
 
 .para-img-2 {
-  background-image: url("./images/starlink-globe.jpg");
+  /*background-image: url("./images/starlink-globe.jpg");*/
+  background-image: url("./images/starlink-top.jpg");
 }
 
 .para-img-3 {
